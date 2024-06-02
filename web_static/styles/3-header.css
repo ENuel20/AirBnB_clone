@@ -1,15 +1,16 @@
 header {
-    background-color: #fffdfd;
+    background-color: white;
     color: white;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
     display: flex;
-    align-items: center;
-    padding-left: 20px;
+    align-items: center; /* Centers content vertically */
+    padding-left: 20px; /* Adds space to the left */
 }
 
-header .logo {
-    height: 40px; 
+.logo {
+    font-size: 29px;
+    font-weight: bold;
 }
 

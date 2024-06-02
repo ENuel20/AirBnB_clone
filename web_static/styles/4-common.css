@@ -9,6 +9,11 @@ body {
     min-height: 100vh;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 30px auto; /* Centers the container horizontally and adds 30px top and bottom margin */
+}
+
 main {
     flex: 1;
-}}
+}

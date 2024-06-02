@@ -7,6 +7,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    position: absolute;
+    position: relative; /* This ensures the footer is positioned correctly within the flex layout */
     bottom: 0;
+    margin-top: auto; /* Pushes the footer to the bottom if there isn't enough content */
 }
