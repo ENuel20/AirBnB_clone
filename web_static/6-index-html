@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header, Footer, and Filters Layout</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="styles/2-common.css">
+    <link rel="stylesheet" href="styles/2-header.css">
+    <link rel="stylesheet" href="styles/2-footer.css">
+    <link rel="stylesheet" href="styles/4-filter.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="logo" class="logo">
+    </header>
+    <div>
+        <div class="container">
+            <section class="filters">
+                <div class="locations">
+                    <h2>States</h2>
+                    <ul class="popover">
+                        <li>State
+                            <ul class="popover">
+                                <li>City</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+                <div class="amenities">
+                    <h3>Amenities</h3>
+                    <ul class="popover">
+                        <li>Fake Now</li>
+                    </ul>
+                </div>
+                <button class="search">Search</button>
+            </section>
+        </div>
+    </div>
+    <main></main>
+    <footer>
+        Best School
+    </footer>
+</body>
+</html>
